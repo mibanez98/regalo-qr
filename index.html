@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Para Chuchi ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+
+    <!-- ========================================= -->
+    <!-- PANTALLA 1                                -->
+    <!-- ========================================= -->
+
+    <section id="pantalla1" class="pantalla activa">
+
+        <div class="contenido-inicial">
+
+            <h1 class="nombre">Chuchi</h1>
+
+            <p class="mensaje">
+                Toca el corazón
+            </p>
+
+            <button
+                class="boton-corazon"
+                onclick="siguientePantalla()"
+                aria-label="Continuar"
+            >
+                ❤️
+            </button>
+
+            <div class="progreso">
+
+                <div class="barra-progreso">
+                    <div
+                        class="relleno-progreso"
+                        style="width: 0%;"
+                    ></div>
+                </div>
+
+                <p class="porcentaje">0%</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ========================================= -->
+    <!-- PANTALLA 2                                -->
+    <!-- ========================================= -->
+
+    <section id="pantalla2" class="pantalla">
+
+        <div class="contenido-inicial">
+
+            <h1 class="nombre">Chuchi</h1>
+
+            <p class="mensaje">
+                Otra vez
+            </p>
+
+            <button
+                class="boton-corazon"
+                onclick="siguientePantalla()"
+                aria-label="Continuar"
+            >
+                ❤️
+            </button>
+
+            <div class="progreso">
+
+                <div class="barra-progreso">
+                    <div
+                        class="relleno-progreso"
+                        style="width: 20%;"
+                    ></div>
+                </div>
+
+                <p class="porcentaje">20%</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ========================================= -->
+    <!-- PANTALLA 3                                -->
+    <!-- ========================================= -->
+
+    <section id="pantalla3" class="pantalla">
+
+        <div class="contenido-inicial">
+
+            <h1 class="nombre">Chuchi</h1>
+
+            <p class="mensaje">
+                Vamos, te estás acercando
+            </p>
+
+            <button
+                class="boton-corazon"
+                onclick="siguientePantalla()"
+                aria-label="Continuar"
+            >
+                ❤️
+            </button>
+
+            <div class="progreso">
+
+                <div class="barra-progreso">
+                    <div
+                        class="relleno-progreso"
+                        style="width: 40%;"
+                    ></div>
+                </div>
+
+                <p class="porcentaje">40%</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ========================================= -->
+    <!-- PANTALLA 4                                -->
+    <!-- ========================================= -->
+
+    <section id="pantalla4" class="pantalla">
+
+        <div class="contenido-inicial">
+
+            <h1 class="nombre">Chuchi</h1>
+
+            <p class="mensaje">
+                Sigue, estamos calentando motores
+            </p>
+
+            <button
+                class="boton-corazon"
+                onclick="siguientePantalla()"
+                aria-label="Continuar"
+            >
+                ❤️
+            </button>
+
+            <div class="progreso">
+
+                <div class="barra-progreso">
+                    <div
+                        class="relleno-progreso"
+                        style="width: 60%;"
+                    ></div>
+                </div>
+
+                <p class="porcentaje">60%</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ========================================= -->
+    <!-- PANTALLA 5                                -->
+    <!-- ========================================= -->
+
+    <section id="pantalla5" class="pantalla">
+
+        <div class="contenido-inicial">
+
+            <h1 class="nombre">Chuchi</h1>
+
+            <p class="mensaje">
+                No pares ahora
+            </p>
+
+            <button
+                class="boton-corazon"
+                onclick="siguientePantalla()"
+                aria-label="Continuar"
+            >
+                ❤️
+            </button>
+
+            <div class="progreso">
+
+                <div class="barra-progreso">
+                    <div
+                        class="relleno-progreso"
+                        style="width: 80%;"
+                    ></div>
+                </div>
+
+                <p class="porcentaje">80%</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ========================================= -->
+    <!-- PANTALLA 6                                -->
+    <!-- ========================================= -->
+
+    <section id="pantalla6" class="pantalla">
+
+        <div class="contenido-inicial">
+
+            <h1 class="nombre">Chuchi</h1>
+
+            <p class="mensaje">
+                La última vez
+            </p>
+
+            <button
+                class="boton-corazon ultimo-corazon"
+                onclick="siguientePantalla()"
+                aria-label="Ver sorpresa"
+            >
+                ❤️
+            </button>
+
+            <div class="progreso">
+
+                <div class="barra-progreso">
+                    <div
+                        class="relleno-progreso"
+                        style="width: 100%;"
+                    ></div>
+                </div>
+
+                <p class="porcentaje">100%</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ========================================= -->
+    <!-- PANTALLA 7                                -->
+    <!-- FOTOS + SOBRE                             -->
+    <!-- ========================================= -->
+
+    <section
+        id="pantalla7"
+        class="pantalla pantalla-final"
+    >
+
+        <div class="contenido-final">
+
+
+            <!-- FRASE CUMPLEAÑOS -->
+
+            <p class="frase-cumple">
+                Hoy es el cumpleaños de
+            </p>
+
+            <h2>
+                mi persona favorita ❤️
+            </h2>
+
+
+
+            <!-- ================================= -->
+            <!-- CARRUSEL DE 5 FOTOS               -->
+            <!-- ================================= -->
+
+            <div class="carrusel">
+
+
+                <button
+                    id="flechaAnterior"
+                    class="flecha flecha-izquierda"
+                    aria-label="Foto anterior"
+                >
+                    ‹
+                </button>
+
+
+                <div
+                    id="carruselViewport"
+                    class="carrusel-viewport"
+                >
+
+                    <div
+                        id="carruselTrack"
+                        class="carrusel-track"
+                    >
+
+
+                        <!-- FOTO 1 -->
+
+                        <div class="slide">
+
+                            <div class="polaroid">
+
+                                <img
+                                    src="fotos/foto1.jpg"
+                                    alt="Nuestro recuerdo 1"
+                                >
+
+                            </div>
+
+                        </div>
+
+
+
+                        <!-- FOTO 2 -->
+
+                        <div class="slide">
+
+                            <div class="polaroid">
+
+                                <img
+                                    src="fotos/foto2.jpg"
+                                    alt="Nuestro recuerdo 2"
+                                >
+
+                            </div>
+
+                        </div>
+
+
+
+                        <!-- FOTO 3 -->
+
+                        <div class="slide">
+
+                            <div class="polaroid">
+
+                                <img
+                                    src="fotos/foto3.jpg"
+                                    alt="Nuestro recuerdo 3"
+                                >
+
+                            </div>
+
+                        </div>
+
+
+
+                        <!-- FOTO 4 -->
+
+                        <div class="slide">
+
+                            <div class="polaroid">
+
+                                <img
+                                    src="fotos/foto4.jpg"
+                                    alt="Nuestro recuerdo 4"
+                                >
+
+                            </div>
+
+                        </div>
+
+
+
+                        <!-- FOTO 5 -->
+
+                        <div class="slide">
+
+                            <div class="polaroid">
+
+                                <img
+                                    src="fotos/foto5.jpg"
+                                    alt="Nuestro recuerdo 5"
+                                >
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+
+
+                <button
+                    id="flechaSiguiente"
+                    class="flecha flecha-derecha"
+                    aria-label="Foto siguiente"
+                >
+                    ›
+                </button>
+
+
+
+                <!-- PUNTITOS -->
+
+                <div class="puntos">
+
+                    <button
+                        class="punto activo"
+                        data-foto="0"
+                        aria-label="Foto 1"
+                    ></button>
+
+                    <button
+                        class="punto"
+                        data-foto="1"
+                        aria-label="Foto 2"
+                    ></button>
+
+                    <button
+                        class="punto"
+                        data-foto="2"
+                        aria-label="Foto 3"
+                    ></button>
+
+                    <button
+                        class="punto"
+                        data-foto="3"
+                        aria-label="Foto 4"
+                    ></button>
+
+                    <button
+                        class="punto"
+                        data-foto="4"
+                        aria-label="Foto 5"
+                    ></button>
+
+                </div>
+
+
+                <p class="texto-desliza">
+                    Desliza para ver más
+                </p>
+
+
+            </div>
+
+
+
+            <!-- ================================= -->
+            <!-- SOBRE                             -->
+            <!-- ================================= -->
+
+            <div class="zona-sobre">
+
+
+                <p class="texto-sorpresa">
+                    Pero las fotos no pueden decirlo todo...
+                </p>
+
+
+                <div
+                    id="sobre"
+                    class="sobre"
+                    role="button"
+                    tabindex="0"
+                    aria-label="Abrir sobre"
+                >
+
+
+                    <!-- PARTE TRASERA -->
+
+                    <div class="parte-trasera"></div>
+
+
+
+                    <!-- CARTA QUE SALE DEL SOBRE -->
+
+                    <div
+                        id="cartaPreview"
+                        class="carta-preview"
+                    >
+
+                        <div class="carta-preview-interior">
+
+                            <span>
+                                Para ti
+                            </span>
+
+                            <span class="corazon-carta">
+                                ♥
+                            </span>
+
+                            <small>
+                                Toca para leer
+                            </small>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- PARTE DELANTERA -->
+
+                    <div class="frontal"></div>
+
+
+
+                    <!-- SOLAPA -->
+
+                    <div class="solapa"></div>
+
+
+
+                    <!-- SELLO -->
+
+                    <div class="sello">
+                        <span>♥</span>
+                    </div>
+
+
+                </div>
+
+
+                <p
+                    id="instruccionSobre"
+                    class="instruccion-sobre"
+                >
+                    Toca el sobre
+                </p>
+
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ========================================= -->
+    <!-- CARTA GRANDE                              -->
+    <!-- ========================================= -->
+
+    <div
+        id="cartaModal"
+        class="carta-modal"
+        aria-hidden="true"
+    >
+
+        <div
+            id="cartaGrande"
+            class="carta-grande"
+        >
+
+
+            <button
+                id="cerrarCarta"
+                class="cerrar-carta"
+                aria-label="Guardar carta"
+            >
+                ×
+            </button>
+
+
+
+            <div class="contenido-carta-grande">
+
+
+                <p class="cabecera-carta">
+                    Feliz cumpleaños, mi amorcio ❤
+                </p>
+
+
+                <div class="corazon-grande">
+                    ♥
+                </div>
+
+
+                <p>
+                    Hoy es un día especial. Hoy sumamos un cumpleaños más,
+                    un añito más para ti.
+                    Celebramos vida.
+                </p>
+
+
+                <p>
+                    Quiero que sepas que te admiro. Admiro tu fortaleza,
+                    tu capacidad para seguir adelante incluso cuando las
+                    cosas se ponen turbias. Admiro tu espíritu de esfuerzo,
+                    porque contra viento y marea has acabado ese dichoso TFM.
+                    Vamos, que estoy orgullosisisisima de ti,
+                    de la persona que eres y de tenerte a mi lado.
+                </p>
+
+
+                <p>
+                    También quiero darte las gracias. Gracias por quererme
+                    tanto, por cuidarme y por aguantarme en mis días más
+                    complicados 🙄. Gracias por ser mi James, porque somos
+                    <strong>el mejor Team Rocket</strong> 💪.
+                </p>
+
+
+                <p>
+                    Espero que este año podamos seguir disfrutando de nuestros
+                    queridos y apreciados viajes, porque si nos pusiéramos a
+                    poner fotitos, ya tenemos varios álbumes llenos…
+                    Maldivas, Bali, Londres, Bruselas, Edimburgo, Roma…
+                    <strong>¡¡¡Y LOS QUE QUEDAN!!!</strong>
+                </p>
+
+
+                <p>
+                    Gracias por sostener mi locura y vivirla conmigo.
+                    Por más cumpleaños, monos robándonos cosas y todo
+                    lo que nos quiera dar la vida.
+                </p>
+
+
+                <p class="final-carta">
+                    Te quiero muchísimo.
+                </p>
+
+
+                <p class="firma">
+                    Felices 49, chuchi ❤
+                </p>
+
+
+                <p class="guardar-aviso">
+                    Toca de nuevo la carta para guardarla
+                </p>
+
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+
+    <!-- ========================================= -->
+    <!-- JAVASCRIPT                                -->
+    <!-- ========================================= -->
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
